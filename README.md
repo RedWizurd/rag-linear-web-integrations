@@ -28,6 +28,13 @@ pip install -r requirements.txt
 python3 axeon_web/adapter.py
 ```
 
+## Usage
+```bash
+make setup
+make check
+make run
+```
+
 ## Roadmap
 - Add bi-directional Linear sync conflict resolution.
 - Add RAG ingestion pipelines for multiple source types.
